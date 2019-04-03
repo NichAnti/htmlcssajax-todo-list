@@ -47,6 +47,7 @@ main {
   overflow: hidden;
   color: #222222;
   position: relative;
+  word-break: break-all;
 }
 
 textarea:focus {
@@ -94,4 +95,23 @@ i:hover {
   border-radius: 50%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+::-webkit-scrollbar-track
+{
+	background-color: #222222;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #222222;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+  border-radius: 5px;
 }
